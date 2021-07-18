@@ -1,0 +1,65 @@
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: linear-gradient(rgba(104,206,219,0.5),rgba(172,35,35,0.5)),url('img56.jpeg') ;
+        height: 100vh ;
+        background-size: cover;
+        background-position: center ;
+        
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+    .left div{
+        color: rgb(87, 49, 121);
+        font-style:sans-serif;
+        line-height: 19px;
+        font-size: 50px;
+    }
+
+    .navbar{
+        float: right;
+        display: inline-block;
+        
+    }
+    .navbar li{
+        display:inline-block;
+        font-size: 25PX;
+    }
+    .navbar li a{
+        color: rgb(87, 49, 121);
+        text-decoration: none;
+        padding: 34px 23px ;
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color: rgb(87, 49, 121);
+    }
+    .title{
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50%,-50%);
+    }
+    .title h1{
+        color:rgb(5, 70, 95);
+        font-size: 32px;
+    }
+    .title p{
+        position: centre;
+        top: 70%;
+        left: 60%;
+        color: rgb(10, 59, 92);
+        font-size: 28px;
+        transform: translate(5%,-50%);
+
+    }
+    .button{
+        position: absolute;
+        top: 70%;
+        left: 60%;
+        transform: translate(-70%,-70%);
+    }
